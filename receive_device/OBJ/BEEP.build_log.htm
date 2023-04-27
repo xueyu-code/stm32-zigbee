@@ -1,0 +1,90 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.34.0.0
+Copyright (C) 2021 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 111 111, 111, LIC=MPPLD-87NL0-DYDV3-AZ45D-3JTCJ-5D66D
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.34.0.0
+Toolchain Path:  E:\MDK534\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.34.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      Segger\JL2CM3.dll V2.99.38.0
+Dialog DLL:      TCM.DLL V1.48.0.0
+ 
+<h2>Project:</h2>
+D:\Study_end\stm32_zigbee\receive_device\USER\BEEP.uvprojx
+Project File Date:  01/07/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'E:\MDK534\ARM\ARMCC\Bin'
+Rebuild target 'BEEP'
+compiling delay.c...
+compiling BEEP.c...
+..\HARDWARE\BEEP.h(19): warning:  #1295-D: Deprecated declaration BEEP_ON - give arg types
+  void BEEP_ON( );   //·äÃùÆ÷Ïì
+..\HARDWARE\BEEP.c: 1 warning, 0 errors
+compiling system_stm32f10x.c...
+compiling stm32f10x_it.c...
+compiling main.c...
+..\HARDWARE\oled.h(44): warning:  #1295-D: Deprecated declaration Picture - give arg types
+  void Picture();
+..\HARDWARE\oled.h(45): warning:  #1295-D: Deprecated declaration IIC_Start - give arg types
+  void IIC_Start();
+..\HARDWARE\oled.h(46): warning:  #1295-D: Deprecated declaration IIC_Stop - give arg types
+  void IIC_Stop();
+..\HARDWARE\oled.h(51): warning:  #1295-D: Deprecated declaration IIC_Wait_Ack - give arg types
+  void IIC_Wait_Ack();
+..\HARDWARE\beep.h(19): warning:  #1295-D: Deprecated declaration BEEP_ON - give arg types
+  void BEEP_ON( );   //·äÃùÆ÷Ïì
+main.c(20): warning:  #177-D: variable "data"  was declared but never referenced
+  		u8 data;
+main.c: 6 warnings, 0 errors
+compiling oled.c...
+..\HARDWARE\oled.h(44): warning:  #1295-D: Deprecated declaration Picture - give arg types
+  void Picture();
+..\HARDWARE\oled.h(45): warning:  #1295-D: Deprecated declaration IIC_Start - give arg types
+  void IIC_Start();
+..\HARDWARE\oled.h(46): warning:  #1295-D: Deprecated declaration IIC_Stop - give arg types
+  void IIC_Stop();
+..\HARDWARE\oled.h(51): warning:  #1295-D: Deprecated declaration IIC_Wait_Ack - give arg types
+  void IIC_Wait_Ack();
+..\HARDWARE\oled.c: 4 warnings, 0 errors
+compiling sys.c...
+assembling startup_stm32f10x_hd.s...
+compiling core_cm3.c...
+compiling misc.c...
+compiling stm32f10x_rcc.c...
+compiling usart.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_i2c.c...
+compiling stm32f10x_usart.c...
+compiling stm32f10x_tim.c...
+linking...
+Program Size: Code=6220 RO-data=2408 RW-data=956 ZI-data=1956  
+FromELF: creating hex file...
+"..\OBJ\BEEP.axf" - 0 Error(s), 11 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.3.0.pack
+                Keil.STM32F1xx_DFP.2.3.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  E:\MDK534\Keil\STM32F1xx_DFP\2.3.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>
